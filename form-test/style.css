@@ -1,0 +1,72 @@
+/* Generelle stilarter for body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Fuldbredde inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Stil til knapper */
+button {
+  background-color: #3092d4;
+  color: hvid;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Hover-effekt til knapper */
+button:hover {
+  opacity: 0.6;
+}
+
+/* Ekstra stil til afvisningsknappen (rød) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center avatarbilledet */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+
+
+/* Tilføj polstring til containere */
+.container {
+  padding: 16px;
+}
+
+/* Glemt kodeord */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Ændre stilarter til span og afvisningsknap på små skærme */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}

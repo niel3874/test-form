@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Login Formular</title>
+</head>
+<body>
+
+<h2>Login Formular</h2>
+
+<form action="/action_page.php" method="post">
+  
+
+  <div class="container">
+    <label for="uname"><b>Brugernavn</b></label>
+    <input type="text" placeholder="Indtast Brugernavn" name="uname" required>
+
+    <label for="psw"><b>Kodeord</b></label>
+    <input type="password" placeholder="Indtast Kodeord" name="psw" required>
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Husk mig
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Afvis</button>
+    <span class="psw">Glemt <a href="#">kodeord?</a></span>
+  </div>
+</form>
+
+</body>
+</html>
